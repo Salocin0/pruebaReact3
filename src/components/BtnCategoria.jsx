@@ -1,10 +1,10 @@
 //estilos del boton
 const BtnCategoria = ({ texto, categoria, funcionPadre }) => {
-  const handleSetCategoria2 = () => {
+  const handleSetCategoria = () => {
     funcionPadre(categoria);
   };
 
-  return <button onClick={handleSetCategoria2}>{texto}</button>;
+  return <button onClick={handleSetCategoria}>{texto}</button>;
 };
 
 export default BtnCategoria;

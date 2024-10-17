@@ -1,0 +1,25 @@
+.contenedor{
+    background-color: darkslategray;
+    border-radius: 20px;
+    width: 900px;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.img{
+    height: 300px;
+    border-radius: 20px;
+}
+
+.descripcion{
+    font-size: 20px;
+    padding: 30px;
+}
+
+.precio{
+    font-size: 30px;
+    font-weight: 900;
+}
